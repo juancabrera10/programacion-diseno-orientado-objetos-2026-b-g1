@@ -5,7 +5,7 @@ public class Estudiante {
 
     void presentarse() {
         System.out.println("Hola, soy " + nombre +
-                ", estudio " + programa +
-                " y estoy en el semestre " + semestre + ".");
+            ", estudio " + programa +
+            " y estoy en el semestre " + semestre + ".");
     }
 }
