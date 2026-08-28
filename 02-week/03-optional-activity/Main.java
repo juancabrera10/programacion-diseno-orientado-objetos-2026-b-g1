@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println("\n--- DEMOSTRACIÓN DE ALIASING ---");
         Libro otroLibro = libro1;
-
+        
         System.out.println("Título original a través de libro1: " + libro1.titulo);
         otroLibro.titulo = "Cien años de soledad (Edición Especial)";
         System.out.println("Título visto desde libro1 tras modificar 'otro': " + libro1.titulo);
