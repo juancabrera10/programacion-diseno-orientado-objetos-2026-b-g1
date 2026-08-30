@@ -13,6 +13,14 @@ public class CuentaBancaria {
         }
     }
 
+    public CuentaBancaria(String id2, String string) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public CuentaBancaria(String string, String string2, double d) {
+        //TODO Auto-generated constructor stub
+    }
+
     // Getter para el ID (solo lectura, sin setter como pide la guía)
     public String getId() {
         return id;
@@ -43,5 +51,10 @@ public class CuentaBancaria {
             System.out.println("Error: Retiro inválido (monto negativo, cero o supera el saldo disponible).");
             return false;
         }
+    }
+
+    public void depositar(double d) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'depositar'");
     }
 }
